@@ -7,11 +7,11 @@ require "taiwan_city/version"
 Gem::Specification.new do |s|
   s.name        = "taiwan_city"
   s.version     = TaiwanCity::VERSION
-  s.authors     = ["saberma"]
-  s.email       = ["mahb45@gmail.com"]
-  s.homepage    = "https://github.com/saberma/taiwan_city"
-  s.summary     = "a gem to help you select chinese area"
-  s.description = "a gem to help you select chinese area like province, city and district"
+  s.authors     = ["motephyr"]
+  s.email       = ["motephyr@gmail.com"]
+  s.homepage    = "https://github.com/motephyr/taiwan_city"
+  s.summary     = "a gem to help you select taiwan area"
+  s.description = "a gem to help you select taiwan area like city and district"
   s.license     = 'MIT'
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

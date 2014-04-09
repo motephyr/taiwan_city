@@ -1,8 +1,6 @@
-# TaiwanCity 省市区级联选择
+# TaiwanCity 台灣縣市下拉列表 
 
-[![Build Status](https://travis-ci.org/saberma/taiwan_city.png?branch=master)](https://travis-ci.org/saberma/taiwan_city)
-
-![taiwan_city](http://cl.ly/image/3c212i1e3b1T/ScreenFlow.mp4.gif)
+此rubygem 程式結構以[china_city](https://github.com/saberma/china_city)做參考，保留大部分原文說明。只在不同處做修改
 
 支持 Rails3.1, Rails3.2, Rails4.0。
 
@@ -10,7 +8,7 @@
 
 ## 简介
 
-这是一个基于 Rails Engine 开发的插件，为 Rails 项目增加省市区三级（或者省市 二级）选择框，可用于实现收货地址等信息的录入。
+这是一个基于 Rails Engine 开发的插件，為 Rails 專案增加縣,市區二級下拉列表。
 
 ## 安装
 
@@ -44,7 +42,7 @@
 
 请留意：所有选择框都要有 `city-select` class，并都包含于 class='city-group' 的 DOM 元素之下。
 
-选择后的值为国家地区编码，如深圳市的为 `440300`，可通过调用 `TaiwanCity.get('440300')` 将编码转化为城市名称。
+選擇後的值為台灣的郵遞區號。
 
 ## 贡献
 
@@ -67,6 +65,6 @@ bundle install
 rake appraisal:rails31 spec
 ```
 
-## 类似项目
+## 感謝作者
 
-* https://github.com/Kehao/area_cn_select
+* [saberma](https://github.com/saberma)

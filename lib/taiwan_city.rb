@@ -2,11 +2,11 @@
 require "taiwan_city/engine"
 
 module TaiwanCity
-  TAIWAN = '000000' # 全国
+  TAIWAN = '000' # 全国
   PATTERN = /(\d{2})(\d{2})(\d{2})/
 
   class << self
-    def list(parent_id = '000000')
+    def list(parent_id = '000')
       result = []
       return result if parent_id.blank?
       province_id = province(parent_id)

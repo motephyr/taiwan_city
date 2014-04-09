@@ -1,4 +1,4 @@
-require_dependency "china_city/application_controller"
+require_dependency "taiwan_city/application_controller"
 
 module TaiwanCity
   class DataController < ApplicationController

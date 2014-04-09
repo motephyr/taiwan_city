@@ -1,11 +1,7 @@
-# rails plugin new china_city --dummy-path=spec/dummy --skip-test-unit --mountable
-if ENV['TRAVIS']
   source 'https://rubygems.org'
-else
-  source 'http://ruby.taobao.org'
-end
 
-# Declare your gem's dependencies in china_city.gemspec.
+
+# Declare your gem's dependencies in taiwan_city.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec

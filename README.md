@@ -1,8 +1,8 @@
-# ChinaCity 省市区级联选择
+# TaiwanCity 省市区级联选择
 
-[![Build Status](https://travis-ci.org/saberma/china_city.png?branch=master)](https://travis-ci.org/saberma/china_city)
+[![Build Status](https://travis-ci.org/saberma/taiwan_city.png?branch=master)](https://travis-ci.org/saberma/taiwan_city)
 
-![china_city](http://cl.ly/image/3c212i1e3b1T/ScreenFlow.mp4.gif)
+![taiwan_city](http://cl.ly/image/3c212i1e3b1T/ScreenFlow.mp4.gif)
 
 支持 Rails3.1, Rails3.2, Rails4.0。
 
@@ -16,16 +16,16 @@
 
 ### Gemfile
 
-    gem 'china_city'
+    gem 'taiwan_city'
 
 ### app/assets/javascripts/application.js
 
     //= require 'jquery'
-    //= require 'china_city/jquery.china_city'
+    //= require 'taiwan_city/jquery.taiwan_city'
 
 ### config/routes.rb
 
-    mount ChinaCity::Engine => '/china_city'
+    mount TaiwanCity::Engine => '/taiwan_city'
 
 ## 使用
 
@@ -35,7 +35,7 @@
   .city-group
     select.city-select
       option --省份--
-      = options_for_select(ChinaCity.list)
+      = options_for_select(TaiwanCity.list)
     select.city-select
       option --城市--
     select.city-select
@@ -44,16 +44,16 @@
 
 请留意：所有选择框都要有 `city-select` class，并都包含于 class='city-group' 的 DOM 元素之下。
 
-选择后的值为国家地区编码，如深圳市的为 `440300`，可通过调用 `ChinaCity.get('440300')` 将编码转化为城市名称。
+选择后的值为国家地区编码，如深圳市的为 `440300`，可通过调用 `TaiwanCity.get('440300')` 将编码转化为城市名称。
 
 ## 贡献
 
 ```bash
-git clone git@github.com:saberma/china_city.git
-cd china_city
+git clone git@github.com:saberma/taiwan_city.git
+cd taiwan_city
 rake appraisal:install
 cd spec/dummy
-rails server # http://localhost:3000/china_city
+rails server # http://localhost:3000/taiwan_city
 ```
 
 ## 测试

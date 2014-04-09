@@ -1,9 +1,9 @@
 # encoding: utf-8
 require 'spec_helper'
 
-feature 'china city', js: true do
+feature 'taiwan city', js: true do
   scenario 'select' do
-    visit '/china_city'
+    visit '/taiwan_city'
     within '.rails-helper' do
       select '广东省'
       select '深圳市'
@@ -18,7 +18,7 @@ feature 'china city', js: true do
 
   describe 'clean' do
     before do
-      visit '/china_city'
+      visit '/taiwan_city'
       within '.rails-helper' do
         select '广东省'
         select '深圳市'

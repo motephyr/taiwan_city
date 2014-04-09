@@ -1,8 +1,8 @@
 # encoding: utf-8
-require "china_city/engine"
+require "taiwan_city/engine"
 
-module ChinaCity
-  CHINA = '000000' # 全国
+module TaiwanCity
+  TAIWAN = '000000' # 全国
   PATTERN = /(\d{2})(\d{2})(\d{2})/
 
   class << self

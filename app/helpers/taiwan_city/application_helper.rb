@@ -1,4 +1,4 @@
-module ChinaCity
+module TaiwanCity
   module ApplicationHelper
   end
 end

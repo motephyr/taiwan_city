@@ -47,22 +47,11 @@
 ## 贡献
 
 ```bash
-git clone git@github.com:saberma/taiwan_city.git
+git clone https://github.com/motephyr/taiwan_city.git
 cd taiwan_city
 rake appraisal:install
 cd spec/dummy
 rails server # http://localhost:3000/taiwan_city
-```
-
-## 测试
-
-```bash
-rvm use 2.0.0
-rake appraisal:rails4 spec
-rake appraisal:rails32 spec
-rvm use 1.9.3
-bundle install
-rake appraisal:rails31 spec
 ```
 
 ## 感謝作者

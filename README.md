@@ -14,7 +14,7 @@
 
 ### Gemfile
 
-    gem 'taiwan_city'
+    gem 'taiwan_city', git: 'https://github.com/motephyr/taiwan_city.git'
 
 ### app/assets/javascripts/application.js
 

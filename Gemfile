@@ -11,7 +11,7 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-gem 'jquery-rails' # fixed: ActionView::Template::Error: couldn't find file 'jquery'
+#gem 'jquery-rails' # fixed: ActionView::Template::Error: couldn't find file 'jquery'
 gem 'appraisal'
 # To use debugger
 # gem 'debugger'

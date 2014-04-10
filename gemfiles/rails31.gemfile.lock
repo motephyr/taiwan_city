@@ -1,7 +1,7 @@
 PATH
-  remote: /Users/saberma/Documents/china_city
+  remote: ../
   specs:
-    china_city (0.0.4)
+    taiwan_city (0.0.1)
       jquery-rails
       rails (>= 3.1.0)
 
@@ -141,7 +141,6 @@ PLATFORMS
 DEPENDENCIES
   appraisal
   capybara
-  china_city!
   coffee-rails
   jquery-rails
   launchy
@@ -149,3 +148,4 @@ DEPENDENCIES
   rails (~> 3.1.0)
   rspec-rails
   sqlite3
+  taiwan_city!

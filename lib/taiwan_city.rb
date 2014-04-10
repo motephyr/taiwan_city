@@ -34,8 +34,7 @@ module TaiwanCity
     end
 
     def city(code)
-      id_match = match(code)
-      "#{id_match[1]}#{id_match[2]}".ljust(5, '0')
+      match(code)[1].ljust(5, '0')
     end
 
     private

@@ -32,12 +32,10 @@
 ```ruby
   .city-group
     select.city-select
-      option --省份--
+      option --縣市--
       = options_for_select(TaiwanCity.list)
     select.city-select
-      option --城市--
-    select.city-select
-      option --地区--
+      option --鄉鎮市區--
 ```
 
 请留意：所有选择框都要有 `city-select` class，并都包含于 class='city-group' 的 DOM 元素之下。

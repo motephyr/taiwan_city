@@ -6,7 +6,7 @@
 
 请留意，Rails3.1 与 Ruby2.0 不兼容，sprockets 无法正常解析 application.js，请使用 Ruby1.9。
 
-## 简介
+## 簡介
 
 这是一个基于 Rails Engine 开发的插件，為 Rails 專案增加縣,市區二級下拉列表。
 
@@ -40,7 +40,8 @@
 
 请留意：所有选择框都要有 `city-select` class，并都包含于 class='city-group' 的 DOM 元素之下。
 
-選擇後的值前2碼為個人自行編碼，後3碼為台灣的郵遞區號。
+選擇後的值前2碼為個人自行編碼，後3碼為台灣的郵遞區號，可使用 `TaiwanCity.get('01100')` 將代碼轉換為城市名稱。
+
 
 ```
         {"text": "臺北市" ,"id": "01000"},
@@ -66,7 +67,7 @@
         {"text": "離島地區","id": "21000"}
 ```
 
-## 贡献
+## 貢獻
 
 ```bash
 git clone https://github.com/motephyr/taiwan_city.git

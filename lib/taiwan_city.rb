@@ -3,7 +3,7 @@ require "taiwan_city/engine"
 
 module TaiwanCity
   TAIWAN = '00000' # 全国
-  PATTERN = /(\d{2})(\d{3})/
+  PATTERN = /(\d{2})(\d{3})(\d?)/
 
   class << self
     def list(parent_id = '00000')
